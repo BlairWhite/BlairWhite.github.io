@@ -1,0 +1,40 @@
+h1 {
+  font-family: times;
+}
+
+* {
+  background-color: #F5F5F5;
+}
+
+.toolbar {
+  display:inline-block;
+  border:2px solid black;
+  padding: 10px;
+  font-size: 25px;
+  font-family: Arial;
+  background-color: #228B22;
+}
+
+
+.toolbar:hover {
+  background-color:yellow;
+}
+
+.bodycontent {
+  font-size: 20px;
+  padding:5px;
+  display:inline-block;
+}
+
+#welcome {
+  position:relative;
+  height:250px;
+  width: 200px;
+  float: center;
+}
+
+img {
+  height: 250px;
+  width: 200px;
+  float: left;
+}
