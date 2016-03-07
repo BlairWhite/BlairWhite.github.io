@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Blair's Blog
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  </head>
+  <body>
+    <div class="toolbar"><a href="file:///Users/bw1908/DBC/phase-0/BlairWhite.github.io/blair_website/blog-index.html">Blog</a></div>
+    <div class="toolbar"><a href="file:///Users/bw1908/DBC/phase-0/BlairWhite.github.io/blair_website/blog-index.html">Projects</a></div>
+    <div class="toolbar"><a href="file:///Users/bw1908/DBC/phase-0/BlairWhite.github.io/blair_website/blog-index.html">Resume</a></div>
+    <div class="toolbar"><a href="file:///Users/bw1908/DBC/phase-0/BlairWhite.github.io/blair_website/index_b.html">About Me</a></div>
+    <div class="toolbar"><a href="file:///Users/bw1908/DBC/phase-0/BlairWhite.github.io/blair_website/blog-index.html">Contact</a></div>
+      <h3>
+        Ruby vs JavaScript: Looping
+      </h3>
+      <h4>
+        3/7/2016
+        A look at the differences in creating loops in Ruby as opposed to JavaScript.
+      </h4>
+      <p>
+        Loops are an important part of programming in any language: they allow you to perform a specified action a variable number of times - either a set limit, or until a specified condition is met. They save programmers time, make code more readable, and are essential to completing some complex tasks.
+     </p>
+     <p>
+        The main difference between creating loops in Ruby vs JavaScript is that in Ruby there are a number of built in methods and keywords that allow the programmer to quickly and easily construct a loop that fits their needs. JavaScript, however, only presents two possible types of loops: for loops and while loops.
+    </p>
+    <p>
+        As is often the case in Ruby, the built-in methods and keywords offer the user a number of different ways to accomplish a task. Creating loops is no different. The user can choose between creating a for loop, a while loop, using the .times method, the 'until' keyword, or can iterate through a data set using .each,.map, or .inject. One of these methods will often fit the desired use case closely, and the user can apply one of these methods to easily loop their code in the desired way.
+    </p>
+    <p>
+      Looping in JavaScript is more difficult, as it only offers two types of loops: while loops and for loops. Though this might seem limiting, the while and for loops can be used to create whatever type of loop the user is seeking to implement, they just might have to put in a little more work than they would in Ruby. JavaScript while loops are very similar to Ruby, with the syntax as follows:
+      var counter_variable = 0
+      while (counter_variable < 10) {
+        console.log("I am looping");
+        counter_variable += 1
+      }
+      This syntax is not foreign to those with experience in Ruby, the only tricky part being to remember the appropriate parentheses, semicolons, and curly brackets
+    </p>
+    <p>
+      JavaScript for statements are nother story. Their syntax is as follows:
+      for ('Statement 1'; 'Statement 2'; 'Statement 3') { code block to be executed
+      }
+      As shown above, the for loop is comprised of the keyword 'for', followed by parentheses enclosing three statements, each separated by a semicolon. 'Statement 1' is executed before the loop (the code block) starts. It is typically used to set a variable that will be used to count the number of times the loop runs.'Statement 2' defines the condition for running the loop (the code block). When this condition is met, the loop will stop running.'Statement 3' is executed each time after the loop (the code block) has been executed. This statement often works by increasing the counter variable from 'Statement 1'
+    </p>
+  </body>
+  <html>
