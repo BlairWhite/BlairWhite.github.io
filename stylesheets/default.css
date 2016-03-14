@@ -32,7 +32,7 @@ a:link {
 .bodycontent {
   font-size: 20px;
   padding:5px;
-  display:inline-block;
+  display: flex;
 }
 
 #welcome {
@@ -57,9 +57,9 @@ img {
 }
 
 .centered_images {
-  height: 200px;
-  width: 300px;
-  display: block;
+  height: 300px;
+  width: 500px;
+  display: table-row;
   margin-left: auto;
   margin-right: auto;
 }
