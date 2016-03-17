@@ -1,0 +1,15 @@
+* {
+  background-color: #F5F5F5;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  position: relative;
+}
